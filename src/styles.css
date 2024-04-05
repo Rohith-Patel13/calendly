@@ -1,0 +1,27 @@
+::-webkit-scrollbar{
+    display: none;
+}
+
+/* src/styles.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer utilities{
+    .showcase-bg{
+        display: flex;
+        align-items: center;
+        padding: 0.7em;
+    }
+    .showcase-icon{
+        margin-right: 10px;
+        height: 25px;
+    }
+    .rounded-top-right {
+        border-top-right-radius: 16px;
+   }
+   .rounded-bottom-left{
+    border-bottom-left-radius: 8px;
+   }
+  
+}

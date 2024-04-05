@@ -1,0 +1,17 @@
+.main-bg{
+    min-height: 100vh;
+}
+
+.comments{
+    filter: brightness(0) invert(1) grayscale(100%) brightness(10000%);
+}
+.comments-bg{
+    background-color: rgb(58, 166, 249);
+    padding: 14px;
+    border-radius: 50%;
+    position: fixed;
+    top: 38em;
+    left: 90em;
+    cursor: pointer;
+}
+

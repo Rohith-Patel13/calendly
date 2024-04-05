@@ -1,0 +1,21 @@
+.darkmode-bg{
+    background-color: black;
+    color: white;
+}
+
+.darkText{
+    color: white;
+}
+
+.darkImage{
+    filter: brightness(0) invert(1) grayscale(100%) brightness(10000%);
+}
+
+.darkmodeWhiteBg{
+    background-color: white;
+    filter: brightness(0) invert(1) grayscale(100%) brightness(10000%);
+}
+
+.darkModeborder{
+    border-top-color: white;
+}

@@ -1,0 +1,13 @@
+
+.new-btn{
+    left: 173.6px;
+    bottom: 18px;
+}
+
+@media screen and (max-width:460px) {
+    .new-btn{
+        left: 135.2px;
+        bottom: 5px;
+    }
+}
+
